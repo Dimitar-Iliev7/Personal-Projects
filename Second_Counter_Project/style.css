@@ -1,0 +1,44 @@
+h1 {
+    font-family: cursive;
+    font-size: 3rem;
+    text-align: center;
+}
+
+.btn {
+    font-family: cursive;
+    font-size: 1.3rem;
+
+}
+
+#value {
+    font-size: 3rem;
+    text-align: center;
+}
+
+.container {
+    text-align: center;
+    gap: 30px;
+}
+
+.btn.decrease {
+    color: red;
+    box-shadow: 3px 2px;
+    border-radius: 15px;
+    border-color: red;
+}
+
+.btn.decrease:hover {
+    color: red;
+}
+
+.btn.reset {
+    box-shadow: 3px 2px;
+    border-radius: 15px;
+}
+
+.btn.increase {
+    box-shadow: 3px 2px;
+    color: green;
+    border-radius: 15px;
+    border-color: green;
+}
